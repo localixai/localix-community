@@ -1,7 +1,7 @@
 # Localix Community
 
 Mini apps and plugins that people publish in their own repositories, listed for
-[Localix](https://github.com/rsaryev/localix) and Claude Code.
+[Localix](https://github.com/rsaryev/localix-studio) and Claude Code.
 
 This repository holds no code. It is two lists:
 
