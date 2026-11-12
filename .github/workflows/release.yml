@@ -3,7 +3,7 @@ name: Release
 # Every change to the mini app list on main: check it, build it into the released marketplace
 # Localix reads (`mini-app-marketplace.json`, the links as they are), sign it with Localix
 # Community's key, and publish it as the latest release. Localix reads
-# https://github.com/rsaryev/localix-community/releases/latest/download/mini-app-marketplace.json
+# https://github.com/localixai/localix-community/releases/latest/download/mini-app-marketplace.json
 # and checks its signature against the key it ships for this list; each release is stamped with when
 # it was made, and Localix refuses one older than the last it read.
 on:
@@ -26,7 +26,7 @@ jobs:
       - uses: actions/checkout@v5
       - uses: actions/checkout@v5
         with:
-          repository: rsaryev/localix-marketplace
+          repository: localixai/localix-marketplace
           path: .localix-marketplace
           sparse-checkout: plugins/mini-app-authoring
       - uses: oven-sh/setup-bun@v2

@@ -1,7 +1,7 @@
 # Localix Community
 
 Mini apps and plugins that people publish in their own repositories, listed for
-[Localix](https://github.com/rsaryev/localix-studio) and Claude Code.
+[Localix](https://github.com/localixai/localix-studio) and Claude Code.
 
 This repository holds no code. It is two lists:
 
@@ -22,7 +22,7 @@ signed, as `mini-app-marketplace.json`: that release is what Localix reads.
 **Claude Code** reads its plugins:
 
 ```bash
-claude plugin marketplace add rsaryev/localix-community
+claude plugin marketplace add localixai/localix-community
 claude plugin install <plugin>@localix-community
 ```
 
